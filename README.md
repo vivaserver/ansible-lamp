@@ -32,3 +32,5 @@ MIT
 ## Copyright
 
 (c)2014 Cristian R. Arroyo
+
+[eos]: http://elementaryos.org
