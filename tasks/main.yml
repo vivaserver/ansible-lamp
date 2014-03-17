@@ -1,4 +1,8 @@
 ---
+- name: ensure package archive up-to-date
+  apt: update_cache=yes cache_valid_time=3600
+  sudo: yes
+
 - name: Ensure packages available
   apt: pkg={{ item }} state=present install_recommends=no
   with_items:
