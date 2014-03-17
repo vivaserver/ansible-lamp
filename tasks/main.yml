@@ -38,3 +38,7 @@
 - name: Ensure Apache2 restarted
   service: name=apache2 state=restarted
   sudo: yes
+
+- name: clean packages
+  command: apt-get autoclean
+  sudo: yes
