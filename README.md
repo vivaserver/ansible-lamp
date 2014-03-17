@@ -1,16 +1,21 @@
 # Ansible role for sensible LAMP stack
 
-A brief description of the role goes here.
+The official Apache2 package for Ubuntu has some pretty barebone default settings:
 
-Requirements
-------------
+- `sites-enabled/` directory not included.
+- A dull "It works!" index page.
+- `rewrite` module disabled.
+- No favicon.ico
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+This Ansible Galaxy role addresses the above, plus installing the MySQL and PHP5 packages, providing a more sensible LAMP stack installation.
 
-Role Variables
---------------
+## Requirements
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+Ubuntu 12.04 or later, including [elementaryOS][eos] 0.2 "Luna".
+
+## Installation
+
+    $ ansible-galaxy install vivaserver.ansible-lamp 
 
 ## Example Playbook
 
