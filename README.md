@@ -1,6 +1,6 @@
 # Ansible role for a sensible LAMP stack
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.github.com/vivaserver/ansible-lamp/master/screenshot.png)
 
 The official Apache2 package for Ubuntu has some pretty barebone default settings:
 
