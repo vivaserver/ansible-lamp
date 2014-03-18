@@ -1,4 +1,6 @@
-# Ansible role for sensible LAMP stack
+# Ansible role for a sensible LAMP stack
+
+![screenshot](screenshot.png)
 
 The official Apache2 package for Ubuntu has some pretty barebone default settings:
 
