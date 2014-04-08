@@ -14,7 +14,7 @@ This Ansible Galaxy role addresses the above, plus installing the MySQL and PHP5
 
 ## Requirements
 
-Ubuntu 12.04 or later, including [elementaryOS][eos] 0.2 "Luna".
+Ubuntu 12.04 "Precise Pangolin" or later, including [elementaryOS][eos] 0.2 "Luna".
 
 ## Installation
 
